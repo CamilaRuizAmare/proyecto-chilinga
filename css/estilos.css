@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.menu {
+    background-color: black
+}
+.logo {
+    width: 70%;
+    height: 100px;
+}
+.boton {
+    background-color: rgb(253, 253, 253);
+}
+.novedad {
+   font-size: 20px;
+
+}
+.nuestrasede {
+    font-size: 20px;
+}
+.seguinos {
+    font-size: 20px;
+    color: thistle;
+}
+.desplegable {
+    font-size: 20px;
+}
+.titulos {
+    font-size: 20px;
+}
+.face {
+    width: 30px;
+    height: 30px;
+    margin: 35px 15px 20px 0px;
+}
+.insta{
+    width: 30px;
+    height: 30px;
+    margin: 35px 15px 20px 0px;
+}
+.youtb {
+    width: 35px;
+    height: 35px;
+    margin: 35px 10px 20px 0px;
+}
+.spotify {
+    width: 30px;
+    height: 30px;
+    margin: 35px 10px 20px 0px;
+}
+.mail {
+font-size: 15px;
+}
+.divisores {
+    display: flex;
+    padding: 25px;
+}
+.izquierda {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(55, 137, 230);
+    flex: auto;
+    
+}
+.centro {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: orange;
+    flex: auto;
+}
+.derecha {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:rgb(23, 218, 23);
+    flex: auto;
+}
+.tit {
+    font-size: 60px;
+}
+.subtit {
+    font-size: 40px;
+}
+.discos {
+    background-color: black;
+}
+.h2 {
+    background-color: darkorange;
+}
+.galeria {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 75%;
+    height: 10%
+}
+.imagen-disco {
+    align-items: center;
+}
+.celes:hover {
+    background-color: rgb(159, 199, 236);
+    transition: all;
+}
+.naran:hover {
+    background-color: rgb(241, 170, 103);
+}
+.verde:hover {
+    background-color: rgb(96, 223, 102);
+}
+.item1:hover {
+    background-color: rgba(66, 151, 231, 0.4);
+}
+.item2:hover {
+    background-color: rgb(236, 129, 29, 0.4);
+}
+.item3:hover {
+    background-color: rgb(40, 204, 48, 0.4);
+}
